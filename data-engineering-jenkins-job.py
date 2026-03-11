@@ -45,5 +45,5 @@ poster = apprise.Apprise()
 poster.add("https://defaultd9c4591376534be2920bbdb0386381.84.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/5bd5c68074614208861091934b5c138c/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=vIaL0MX17MY3A7fMbYJzgZdC-u9Cciu8JfsmzN2ojys")
 poster.notify(
     title=f"--- ETH max/min price of the last 60 Minutes ---",
-    body=f"Minimum Price: ${min_price:,.2f};Maximum Price: ${max_price:,.2f}")
+    body=f"Minimum Price: ${min_price:,.2f}\nMaximum Price: ${max_price:,.2f}")
 
